@@ -4,4 +4,4 @@ project(LongArithmetic)
 set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
-add_executable(LongArithmetic integration.cpp large-numbers.h main.cpp)
+add_executable(LongArithmetic tests/integration.cpp large-numbers.h main.cpp)
